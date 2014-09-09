@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :comments
+  #attach comments to posts and hide them as a resource
+  #resources :comments
 
   resources :posts do
     resources :comments
